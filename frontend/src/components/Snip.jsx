@@ -362,7 +362,7 @@ const Snip = () => {
                 <input
                   type="range"
                   min="1"
-                  max="20"
+                  max="50"
                   value={strokeWidth}
                   onChange={(e) => setStrokeWidth(parseInt(e.target.value))}
                   className="w-full"
